@@ -1,0 +1,3 @@
+
+go get -u github.com/gocolly/colly/...
+go get -u github.com/PuerkitoBio/goquery

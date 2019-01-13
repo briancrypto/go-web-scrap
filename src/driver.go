@@ -90,10 +90,10 @@ func main() {
 }
 
 func sendEmail(content string) {
-	sender := NewSender("brian.yap.test@gmail.com", "<YOUR EMAIL PASSWORD>")
+	sender := NewSender("blah@gmail.com", "<YOUR EMAIL PASSWORD>")
 
 	//The receiver needs to be in slice as the receive supports multiple receiver
-	Receiver := []string{"brianyap@bc.holdings", "brian.yap.sand@gmail.com"}
+	Receiver := []string{"xyz@email.com", "xyz@gmail.com"}
 
 	Subject := "Cryptocurrency Events"
 	message := content
